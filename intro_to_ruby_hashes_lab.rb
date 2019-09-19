@@ -24,5 +24,5 @@ end
 
 def update_counting_hash(hash, key)
   hash = {"apples" => 3, "carrots" => 4}
-  update_hash = (hash[:apples] += 1)
+  update_hash = (hash["apples"] += 1)
 end
