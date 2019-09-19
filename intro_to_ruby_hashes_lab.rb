@@ -23,6 +23,6 @@ def read_from_hash(hash, key)
 end
 
 def update_counting_hash(hash, key)
-  hash = {:apples => 3}
-  hash.update_hash
+  hash = {:apples => 3, :carrots => 4}
+  update_hash = 
 end
